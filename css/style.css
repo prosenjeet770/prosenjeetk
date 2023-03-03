@@ -1,0 +1,119 @@
+/* universal selector */
+* {
+margin:0 ;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+outline: 0;
+}
+
+/* name selector */
+
+body{
+background-color: rgb(41, 156, 57);
+color: white;
+
+}
+
+/* id selector */
+#admin-box {
+width: 50%;
+border: 2px solid;
+margin: 10% auto;
+text-align: center;
+padding: 30px;
+}
+/* combinator selector */
+#admin-box h1 {
+font-size: 35px;
+line-height: 35px;
+margin: 10px 0px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* grouping selector */
+input,
+label {
+display: block;
+width: 90%;
+margin: auto;
+padding: 10px;
+}
+
+label {
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400;
+}
+
+input {
+
+    background-color: rgb(44, 130, 201);
+border: 2px solid;
+color: aliceblue;
+}
+
+/* accribute selector */
+
+input[type=submit] {
+margin: 15px auto;
+}
+/* psudo class selector */
+input:focus{
+    background-color: azure;
+    color: rgb(58, 61, 241);
+}
+input[type=submit]:hover{
+background-color: aliceblue;
+color: blue;
+}
+
+/* psudo clement selector */
+input::placeholder{
+    color: rgb(17, 7, 53);
+}
+/* class selector */
+.pg {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pg a {
+    text-transform: uppercase;
+    color: rgb(52, 40, 226);
+    text-decoration: none;
+}
+
+
+/* for registar page */
+label[for=gender], input[type=radio]{
+
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
